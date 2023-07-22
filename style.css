@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh;
+    background-image: url('./assets/images/tio_191224_91ezjy.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.seats {
+    width: 320px;
+    height: auto;
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.body {
+    padding: 2rem 0;
+}
+
+.box {
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+
+.middle,
+.start {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.left,
+.right {
+    margin-top: 1rem;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
